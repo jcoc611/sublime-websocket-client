@@ -8,8 +8,18 @@ this repo | pypi
 ![latest tag](https://img.shields.io/github/tag/jcoc611/sublime-websocket-client.svg) | [![pypi](https://img.shields.io/pypi/v/websocket-client.svg)](https://pypi.python.org/pypi/websocket-client)
 
 
-## License
-Except for the following, the contents of this repository are licensed under the GNU Lesser General Public License. A copy of such is available in `LICENSE`.
+## Usage
+Add the following to your `dependencies.json` in the directory of your package.
+```json
+{
+  "*": {
+      "*": [
+      	"six",
+        "websocket-client",
+      ]
+  }
+}
+```
 
-The exemptions are the following:
-* `/all/six` Represents the project [six](https://github.com/benjaminp/six), and is licensed under the MIT License. A copy of such is available as `LICENSE` in such directory.
+## License
+The contents of this repository are licensed under the GNU Lesser General Public License. A copy of such is available in `LICENSE`.
