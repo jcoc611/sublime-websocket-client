@@ -14,7 +14,7 @@ Add the following to your `dependencies.json` in the directory of your package.
 {
   "*": {
       "*": [
-      	"six",
+      	"python-six",
         "websocket-client",
       ]
   }
